@@ -58,6 +58,7 @@ module.exports = {
             "RTOS点亮LED灯",
             "RTOS获取SHT30温湿度数据",
             "RTOS AT模块使用",
+            "RTOS MQTT协议初探",
           ],
         },
       ],
