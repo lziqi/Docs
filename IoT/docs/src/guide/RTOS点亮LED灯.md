@@ -4,7 +4,7 @@
 
 从查询文档可以得知，我们小熊派上，对应的 LED 灯为 PC13，所以如下设置为`GET_PIN(C,13)`
 
-文档地址：https://www.aliyundrive.com/s/AxuB2AhptB4
+文档地址：[阿里云盘](https://www.aliyundrive.com/s/AxuB2AhptB4)
 
 ```c
 #include <board.h>
