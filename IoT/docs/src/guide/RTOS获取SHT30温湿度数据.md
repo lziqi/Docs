@@ -24,7 +24,7 @@ SCL 接口接到主板上的 IIC1_SCL
 
 ## 添加 STH3X 包
 
-在软件包模块中，选择新增，搜索 sht，选择 sht3x 进行添加，添加完成后，ctrl+s 进行保存，RT-Thread 会帮助我们进行自动构建代码。可以看到`packages/sht3x-v1.0.0`出现，这里面放置的就是 sth3x 的软件包代码。
+打开左侧的 RT-Thread Settings,在软件包模块中，选择新增，搜索 sht，选择 sht3x 进行添加，添加完成后，ctrl+s 进行保存，RT-Thread 会帮助我们进行自动构建代码。可以看到`packages/sht3x-v1.0.0`出现，这里面放置的就是 sth3x 的软件包代码。
 
 ## IIC 配置
 
