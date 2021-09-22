@@ -54,14 +54,14 @@ docker run -d --name hivemq -p 1883:1883 -p 8080:8080 hivemq/hivemq4
 
 首先利用 MQTTX 连接服务器，并对`sensor/1`这个 Topic 保持订阅。
 
-构建并下载程序，在命令行中以此输入以下命令
+构建并下载程序，在命令行中依次输入以下命令
 
 ```sh
 # 启动mqtt
 mqtt_start
 
 # 发布hello-rtthread消息
-mqtt_public sensor/1 hello-rtthread
+mqtt_publish sensor/1 hello-rtthread
 
 # 结束
 mqtt_stop
