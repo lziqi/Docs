@@ -31,6 +31,10 @@
 
 下载运行程序后，测试`ifconfig`与`ping`命令是否正确
 
+QCOM 需要按照以下进行配置
+
+![](https://img.lziqi.top/img/QCOM%E5%B0%8F%E7%86%8A%E6%B4%BE%E9%85%8D%E7%BD%AE%E5%9B%BE.png)
+
 ```sh
 ifconfig
 
